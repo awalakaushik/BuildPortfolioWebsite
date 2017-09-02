@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header with a logo and Text -->
+			<header>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="img/profilePhoto.png"
+							width="140"
+							height="100"
+							srcset="img/profilePhoto.png,
+									img/profilePhoto.png 1.5px,
+									img/profilePhoto.png 2px"
+							alt="Cover Photo"
+							class="img-responsive title-logo">
+					</div>
+					<div class="col-md-8 text-right text-uppercase">
+						<h1 class="title-super text-thin">Kaushik Reddy Awala</h1>
+						<h4>Web Developer</h4>
+					</div>
+				</div>
+			</header>
+			<!-- Horizontal ruler -->
+			<div class="row">
+				<hr class="col-md-12 color-line">
+			</div>
+			<!-- Image Section-->
+			<div class="row">
+				<img class="img-responsive col-md-12"
+					alt="Cover Page photo"
+					src="img/puppycover.jpg"
+					srcset="img/puppycover.jpg,
+							img/puppycover.jpg 1.5px,
+							img/puppycover.jpg 2px">
+			</div>
+			<!--Featured Content Section -->
+			<section>
+				<div class="=row">
+					<h2 class="col-md-12 text-muted">Featured Work</h2>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-4">
+						<img src="img/puppy1.jpg"
+							alt="Content1"
+							class="img-responsive"
+							data-toggle="modal"
+							data-target="#modalAppify"
+							srcset="img/puppy1.jpg,
+									img/puppy1.jpg 1.5px,
+									img/puppy1.jpg 2px">
+						<h3 class="text-uppercase">Appify</h3>
+						<p>https://github.com/awalakaushik/appify</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/puppy2.jpg"
+							alt="Content2"
+							class="img-responsive"
+							data-toggle="modal"
+							data-target="#modalSunflower"
+							srcset="img/puppy2.jpg,
+									img/puppy2.jpg 1.5px,
+									img/puppy2.jpg 2px">
+						<h3 class="text-uppercase">Sunflower</h3>
+						<p>https://github.com/awalakaushik/sunflower</p>
+					</div>
+					<div class="col-md-4">
+						<img src="img/puppy3.jpg"
+							alt="Content3"
+							class="img-responsive"
+							data-toggle="modal"
+							data-target="#modalBokeh"
+							srcset="img/puppy3.jpg,
+									img/puppy3.jpg 1.5px,
+									img/puppy3.jpg 2px">
+						<h3 class="text-uppercase">Bokeh</h3>
+						<p>https://github.com/awalakaushik/bokeh</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- CSS Validation Image -->
+			<footer class="row">
+				<p class="col-md-offset-6">
+					<a href="http://jigsaw.w3.org/css-validator/check/referer">
+		    			<img style="border:0;width:88px;height:31px"
+		        			src="http://jigsaw.w3.org/css-validator/img/vcss-blue"
+		        			alt="Valid CSS!" />
+					</a>
+				</p>
+			</footer>
+
+		</div>
+
+		<!-- Modal Appify Information-->
+	    <div class="modal fade" id="modalAppify" tabindex="-1" role="dialog" aria-labelledby="myModalAppify" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalAppify">Appify</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/puppy1.jpg" alt="puppy1">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	    <!-- Modal Sunflower Information-->
+	    <div class="modal fade" id="modalSunflower" tabindex="-1" role="dialog" aria-labelledby="myModalSunflower" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalSunflower">Sunflower</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/puppy2.jpg" alt="puppy2">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	    <!-- Modal Bokeh Information-->
+	    <div class="modal fade" id="modalBokeh" tabindex="-1" role="dialog" aria-labelledby="myModalBokeh" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalBokeh">Bokeh</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/puppy3.jpg" alt="puppy3">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	</body>
+</html>
