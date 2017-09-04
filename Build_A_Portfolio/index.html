@@ -6,10 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My Portfolio</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="js/jquery-3.2.1.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js" async></script>
+		<script src="js/bootstrap.min.js" async></script>
 	</head>
 	<body>
 		<div class="container">
@@ -34,19 +34,23 @@
 			</header>
 			<!-- Horizontal ruler -->
 			<div class="row">
-				<hr class="col-md-12 color-line">
+				<div class="col-md-12">
+					<hr class="color-line">
+				</div>
 			</div>
 			<!-- Image Section-->
 			<div class="row">
-				<img class="img-responsive col-md-12"
-					alt="Cover Page photo"
-					src="img/puppycover.jpg"
-					srcset="img/puppycover.jpg,
-							img/puppycover.jpg 1.5px,
-							img/puppycover.jpg 2px">
+				<div class="col-md-12">
+					<img class="img-responsive"
+						alt="Cover Page photo"
+						src="img/puppycover.jpg"
+						srcset="img/puppycover.jpg,
+								img/puppycover.jpg 1.5px,
+								img/puppycover.jpg 2px">
+				</div>
 			</div>
 			<!--Featured Content Section -->
-			<section>
+			<section class="feature-content">
 				<div class="=row">
 					<h2 class="col-md-12 text-muted">Featured Work</h2>
 				</div>
@@ -94,7 +98,7 @@
 			<footer class="row">
 				<p class="col-md-offset-6">
 					<a href="http://jigsaw.w3.org/css-validator/check/referer">
-		    			<img style="border:0;width:88px;height:31px"
+		    			<img class="validation-image"
 		        			src="http://jigsaw.w3.org/css-validator/img/vcss-blue"
 		        			alt="Valid CSS!" />
 					</a>
