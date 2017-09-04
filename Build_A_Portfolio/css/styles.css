@@ -1,23 +1,37 @@
-body{
-	font-family: 'Lato', sans-serif;
-	color:#747704;
+body {
+	font-family: "Lato", sans-serif;
+	color: #747704;
 	font-weight: 300;
 }
-.text-muted{
-	color:#BCBBBB;
+
+.text-muted {
+	color: #bcbbbb;
 }
-.text-thin{
+
+.text-thin {
 	font-weight: 100;
 	margin-top: 40px;
 }
 
-.title-super{
+.title-super {
 	font-size: 60px;
 }
 
-.title-logo{
-	margin-top:20px;
+.title-logo {
+	margin-top: 20px;
 }
-.color-line{
+
+.color-line {
 	border-top: 2px solid #8b9556;
+	width: 100%;
+}
+
+.validation-image {
+	border: 0;
+	width: 88px;
+	height: 31px;
+}
+
+.feature-content {
+	color:#377a83;
 }
